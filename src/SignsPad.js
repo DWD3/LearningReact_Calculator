@@ -11,10 +11,10 @@ class SignsPad extends Component{
         return(
             <div>
                 <tr>
-                    <td><Button text="+"></Button></td>
-                    <td><Button text="-"></Button></td>
-                    <td><Button text="X"></Button></td>
-                    <td><Button text="/"></Button></td>
+                    <td><Button text="+" concreteHandler={this.props.concreteHandler}></Button></td>
+                    <td><Button text="-" concreteHandler={this.props.concreteHandler}></Button></td>
+                    <td><Button text="X" concreteHandler={this.props.concreteHandler}></Button></td>
+                    <td><Button text="/" concreteHandler={this.props.concreteHandler}></Button></td>
                 </tr>
             </div>
         )
